@@ -10,16 +10,16 @@ using Hearthstone_Deck_Tracker.API;
 using MahApps.Metro.Controls.Dialogs;
 using Hearthstone_Deck_Tracker.Utility.Logging;
 
-using HDT_Reconnector.LogHandler;
-using HDT_Reconnector.Native;
+using HDT_Rec0nn3ctor.LogHandler;
+using HDT_Rec0nn3ctor.Native;
 
-namespace HDT_Reconnector
+namespace HDT_Rec0nn3ctor
 {
-    public class ReconnectorPlugin : IPlugin
+    public class Rec0nn3ctorPlugin : IPlugin
     {
-        public string Name => "Reconnector";
+        public string Name => "Rec0nn3ctor";
 
-        public string Description => "Quickly skip hearthstone animation by disconnecting and reconnecting\n\nFor more information and updates, check out:\nhttps://github.com/haoruan/HDT-Reconnector";
+        public string Description => "Quickly skip hearthstone animation by disconnecting and reconnecting\n\nFor more information and updates, check out:\nhttps://github.com/haoruan/HDT-Rec0nn3ctor";
 
         public string ButtonText => "No Settings";
 
@@ -82,7 +82,7 @@ namespace HDT_Reconnector
         {
             MenuItem = new MenuItem()
             {
-                Header = "Reconnector"
+                Header = "Rec0nn3ctor"
             };
 
             MenuItem.IsCheckable = true;
